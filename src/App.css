@@ -1,10 +1,10 @@
 /* Custom Global Setup & Colors */
 :root {
-  --brand-green: #78C043;
-  --brand-dark: #1C1C1C;
+  --brand-green: #78c043;
+  --brand-dark: #1c1c1c;
   --brand-text-secondary: #717171;
-  --brand-bg-accent: #E1F7D5;
-  --white: #FFFFFF;
+  --brand-bg-accent: #e1f7d5;
+  --white: #ffffff;
 }
 
 body {
@@ -281,8 +281,12 @@ body {
   min-height: 180px;
 }
 
-.card-one { background-color: #F3F9EF; }
-.card-two { background-color: #EBF7F2; }
+.card-one {
+  background-color: #f3f9ef;
+}
+.card-two {
+  background-color: #ebf7f2;
+}
 
 .card-content-left {
   max-width: 60%;
@@ -340,10 +344,13 @@ body {
 
 /* Basic Responsiveness Fallback */
 @media (max-width: 768px) {
-  .hero-grid, .card-grid, .search-bar-row {
+  .hero-grid,
+  .card-grid,
+  .search-bar-row {
     grid-template-columns: 1fr;
   }
-  .nav-links, .phone-info {
+  .nav-links,
+  .phone-info {
     display: none;
   }
 }

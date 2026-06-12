@@ -64,8 +64,16 @@ export default function Home() {
           <p>Join the Vite community</p>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank" rel="noreferrer">
-                <svg className="button-icon" role="presentation" aria-hidden="true">
+              <a
+                href="https://github.com/vitejs/vite"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
                   <use href="/icons.svg#github-icon"></use>
                 </svg>
                 GitHub
@@ -73,7 +81,11 @@ export default function Home() {
             </li>
             <li>
               <a href="https://chat.vite.dev/" target="_blank" rel="noreferrer">
-                <svg className="button-icon" role="presentation" aria-hidden="true">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
                   <use href="/icons.svg#discord-icon"></use>
                 </svg>
                 Discord
@@ -81,15 +93,27 @@ export default function Home() {
             </li>
             <li>
               <a href="https://x.com/vite_js" target="_blank" rel="noreferrer">
-                <svg className="button-icon" role="presentation" aria-hidden="true">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
                   <use href="/icons.svg#x-icon"></use>
                 </svg>
                 X.com
               </a>
             </li>
             <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank" rel="noreferrer">
-                <svg className="button-icon" role="presentation" aria-hidden="true">
+              <a
+                href="https://bsky.app/profile/vite.dev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
                   <use href="/icons.svg#bluesky-icon"></use>
                 </svg>
                 Bluesky
